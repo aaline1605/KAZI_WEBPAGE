@@ -1,0 +1,534 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Header section start */
+.header-section {
+    position: relative;
+    text-align: center;
+    margin: 25px;
+  }
+  .header-section hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: 0;
+    margin-right: 10px;
+}
+  .header-section .text {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 44%;
+    transform: translate(-55%, -55%);
+    background-color: white; 
+    padding: 0 20px;
+}
+  .star-img{
+    position: absolute;
+    top: 45%;
+    left: -2px;
+    width: 25px;
+    height: auto;
+    transform: translateY(-50%);
+    padding:0px 4px ;
+  }
+  /* Header section end */
+
+  
+  
+  /* Box containers */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+/* Box1 out side area start */
+.box1 {
+    font-size: 10px;
+    width: 210px;
+    height: 69.5px;
+    background-color: #ffffff;
+    margin: 2px;
+    padding: 0px;
+    border: 1px solid #b0aeae;
+    border-radius: 2px;
+    margin-top: 10px;
+    position: absolute;
+    transform: translate(-160%);
+}
+/* Box1 out side area end */
+
+/* Box1 text area */
+.box1 p{
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end:1em;
+  margin-inline-start: 6px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+#B1-1{
+  margin-block-start: 0.2em;
+  font-size:13px;
+  font-weight: bold;
+}
+#B1-2{
+  display: block;
+  margin-block-start: -1.3em;
+  color: #b0aeae;
+  font-weight: bold;
+}
+#B1-3{
+  margin-block-start: -0.7em;
+}
+/* Box1 text area end */
+
+/* Box2 outside area start */
+.box2 {
+  font-size: 10px;
+  width: 210px;
+  height: 69.5px;
+  background-color: #ffffff;
+  margin: 2px;
+  padding: 0px;
+  border: 1px solid #b0aeae;
+  border-radius: 2px;
+  margin-top: 10px;
+  position: absolute;
+  transform: translate(-55%);
+}
+/* Box2 out side area end */
+
+/* Box2 text area */
+.box2 p{
+display: block;
+margin-block-start: 0em;
+margin-block-end:1em;
+margin-inline-start: 6px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;
+}
+#B2-1{
+margin-block-start: 0.2em;
+font-size:13px;
+font-weight: bold;
+}
+#B2-2{
+display: block;
+margin-block-start: -1.5em;
+color: #b0aeae;
+font-weight: bold;
+}
+#B2-3{
+margin-block-start: -0.7em;
+}
+
+/* Box2 text area end */
+
+
+/* Box3 outside area start */
+.box3 {
+  font-size: 10px;
+  width: 210px;
+  height: 69.5px;
+  background-color: #ffffff;
+  margin: 2px;
+  padding: 0px;
+  border: 1px solid #b0aeae;
+  border-radius: 2px;
+  margin-top: 10px;
+  position: absolute;
+  transform: translate(50%);
+}
+/* Box3 out side area end */
+
+/* Box3 text area */
+.box3 p{
+display: block;
+margin-block-start: 0em;
+margin-block-end:1em;
+margin-inline-start: 6px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;
+}
+#B3-1{
+margin-block-start: 0.2em;
+font-size:13px;
+font-weight: bold;
+}
+#B3-2{
+display: block;
+margin-block-start: -1.5em;
+color: #b0aeae;
+font-weight: bold;
+}
+#B3-3{
+margin-block-start: -0.7em;
+}
+
+/* Box3 text area end */
+
+/* Box4 outside area start */
+.box4 {
+  font-size: 10px;
+  width: 210px;
+  height: 69.5px;
+  background-color: #ffffff;
+  margin: 2px;
+  padding: 0px;
+  border: 1px solid #b0aeae;
+  border-radius: 2px;
+  margin-top: 10px;
+  position: absolute;
+  transform: translate(160%);
+}
+/* Box4 out side area end */
+
+/* Box4 text area */
+.box4 p{
+display: block;
+margin-block-start: 0em;
+margin-block-end:1em;
+margin-inline-start: 6px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;
+}
+#B4-1{
+margin-block-start: 0.2em;
+font-size:13px;
+font-weight: bold;
+}
+#B4-2{
+display: block;
+margin-block-start: -1.5em;
+color: #b0aeae;
+font-weight: bold;
+}
+#B4-3{
+margin-block-start: -0.7em;
+}
+/* Box4 text area end */
+
+
+/* Poetry section-start */
+.poetry-section {
+  text-align: center;
+}
+
+/* horizontal line section start */
+#horizontalline-1 {
+  position: absolute;
+  top: 290px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 2px;
+  width: 203px;
+  transform: translate(-500px);
+}
+
+#horizontalline-2 {
+  position: absolute;
+  top: 290px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 2px;
+  width: 215px;
+  transform: translate(-115px);
+}
+
+#horizontalline-3 {
+  position: absolute;
+  top: 290px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 2px;
+  width: 350px;
+  transform: translate(200px);
+}
+
+#horizontalline-4 {
+  position: absolute;
+  top: 290px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 2px;
+  width: 250px;
+  transform: translate(485px);
+}
+
+/* horizontal line section end */
+
+.poetry-text {
+  font-size:25px ;
+  position: absolute;
+  top: 290px; 
+  margin-right: 0px;
+  background-color: #fff;
+  border: 1px solid white;
+  border-radius: 2px solid white;
+  padding: 0 10px;
+  transform: translate(-350%);
+}
+/* Poetry section-end */
+
+.poem-song-section {
+  text-align: center;
+}
+
+.poem-text {
+  font-size:25px ;
+  position: absolute;
+  top: 290px; 
+  margin-right: 800px;
+  background-color: #fff;
+  padding: 0 10px;
+  transform: translate(410%);
+  
+}
+
+.entire-text-block{
+text-align: center;
+}
+
+.text-block{
+  text-align: left;
+  position: absolute;
+  top: 370px;
+  left: 50%;
+  transform: translate(-90%);
+  padding: 2px;
+  color: #232425;
+}
+
+.poem-entire-text{
+  text-align: center;
+}
+  
+.poem-text-block{
+    text-align: left;
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    transform: translate(60%);
+    padding: 2px;
+    color: #232425;
+  }
+
+  /* Entire footer content start */
+
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.left-content,.right-content,.center-content{
+  flex: 1;
+  text-align: center;
+}
+
+.left-content::after,.right::before{
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 1px;
+  background-color: #b0aeae;
+  margin: 0 10px;
+}
+
+
+.footer-content{
+  width: 100%;
+  margin-top: 570px;
+  background-color: #1B1C1D;
+  color: white;
+  padding: 70px;
+} 
+/* Entire footer content start */
+
+/* left-line start */
+#f1{
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin-block-start: -1.2em;
+  margin-block-end:1em;
+  margin-inline-start: 6px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  transform: translate(180px);
+  font-size: 12px;
+}
+
+#f2{
+  position: absolute;
+  display: block;
+  margin-block-start: 0.25em;
+  margin-block-end:1em;
+  margin-inline-start: 6px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  transform: translate(180px);
+  font-size: 11px;
+  font-family: 'Segoe UI';
+}
+
+#f2-1{
+  position: absolute;
+  display: block;
+  margin-block-start: 0.33em;
+  margin-block-end:1em;
+  margin-inline-start: 6px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  transform: translate(225px);
+  font-size: 11px;
+  color: #767785;
+  font-family: 'Segoe UI';
+}
+
+#f2-2{
+  position: absolute;
+  display: block;
+  margin-block-start: 0.34em;
+  margin-block-end:1em;
+  margin-inline-start: 6px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  transform: translate(300px);
+  font-size: 11px;
+  font-family: 'Segoe UI';
+}
+
+#vertical-line{
+position: absolute;
+border-left: 0.5px solid #2D2E2F;
+height: 70px;
+top: 700px;
+transform: translate(570px);
+}
+/* left-line end */
+
+  
+#f3{
+position: absolute;
+  display: block;
+  margin-block-start: -3em;
+  margin-block-end:1em;
+  margin-inline-start: 6px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  transform: translate(570px);
+  font-size: 11px;
+}
+
+#f4{
+position: absolute;
+  display: block;
+  margin-block-start: -1em;
+  margin-block-end:1em;
+  margin-inline-start: 6px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  transform: translate(570px);
+  font-size: 11px;
+}
+
+#vertical-line-2{
+  position: absolute;
+  border-left: 0.5px solid #2D2E2F;
+  height: 70px;
+  top: 700px;
+  transform: translate(900px);
+  }
+
+#f5{
+  position: absolute;
+    display: block;
+    margin-block-start: -3em;
+    margin-block-end:1em;
+    margin-inline-start: 6px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    transform: translate(900px);
+    font-size: 11px;
+  }
+  
+  #f6{
+  position: absolute;
+    display: block;
+    margin-block-start: -1em;
+    margin-block-end:1em;
+    margin-inline-start: 6px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    transform: translate(900px);
+    font-size: 11px;
+}
+#f6-0{
+  color: #2B71BD;
+  text-decoration: none;
+}
+
+  /* biographyBD section */
+  #f6-1{
+
+      position: absolute;
+      display: block;
+      margin-block-start: 0.2em;
+      margin-block-end:1em;
+      margin-inline-start: 6px;
+      margin-inline-end: 0px;
+      unicode-bidi: isolate;
+      transform: translate(-5px);
+      font-size: 11px;
+      color: #2B71BD;;
+      text-decoration: none;
+    }
+
+  #f6-2{
+
+      position: absolute;
+      display: block;
+      margin-block-start: 0.2em;
+      margin-block-end:1em;
+      margin-inline-start: 6px;
+      margin-inline-end: 0px;
+      unicode-bidi: isolate;
+      transform: translate(60px);
+      font-size: 11px;
+      color: #2B71BD;
+      text-decoration: none;
+    }
+
+    #f6-3{
+      position: absolute;
+      display: block;
+      margin-block-start: 0.3em;
+      margin-block-end:1em;
+      margin-inline-start: 6px;
+      margin-inline-end: 0px;
+      unicode-bidi: isolate;
+      transform: translate(1044px);
+      font-size: 11px;
+    }
